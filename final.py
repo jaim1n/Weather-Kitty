@@ -29,25 +29,24 @@ print(r"""⠀⠀⠀⠀⠀⠀
                         ⠀⠀⠀⠀⠀⠀⠀⠈⠉⠛⠛⠶⠶⠶⣶⣤⣴⡶⠶⠶⠟⠛⠉⠀⠀⠀⠀⠀⠀⠀
       """)
 
-def print_loading_animation(duration_seconds):
+def sleep(message, seconds):
+    print(message)
+    time.sleep(seconds)
+
+def sleep_loading(message, seconds):
+    print(message, end="\r")
+    time.sleep(seconds)
+
+def loading():
     while True:
-        time.sleep(5)
-        print("                            Bare with me here <3.", end="\r")
-        time.sleep(1)
-        print("                            Bare with me here <3..", end="\r")
-        time.sleep(1)
-        print("                            Bare with me here <3...", end="\r")
-        time.sleep(1)
+        sleep_loading("                            Bare with me here <3.", 1)
+        sleep_loading("                            Bare with me here <3..", 1)
+        sleep_loading("                            Bare with me here <3...", 1)
+        break
 
-        if time.time() >= start_time + duration_seconds:
-            break
-
-duration_seconds = 1
-start_time = time.time()
-
-print_loading_animation(duration_seconds)
-print("\nOK! I'm all set up. Just need one more thing...")
-time.sleep(1.5)
+time.sleep(5)
+loading()
+sleep("\nOK! I'm all set up. Just need one more thing...", 1.5)
 
 while True:
     name = input("What's your name? ")
@@ -56,29 +55,15 @@ while True:
     else:
         time.sleep(0.5)
         print("I don't think that's right. ", end="")
+
 time.sleep(0.5)
-
-print(f"Nice to meet you, {name}. What a beautiful name!")
-time.sleep(2)
-
-print("Now let's see...")
-time.sleep(2)
-
-print("Okay, no storms...")
-time.sleep(1.5)
-
-print("No heavy winds...")
-time.sleep(1.5)
-
-print("Weather conditions seem to be normal!")
-time.sleep(2)
-
-print("Wait...")
-time.sleep(2)
-
-print("Oh no! My thermometer seems to be broken!")
-time.sleep(2)
-
+sleep(f"Nice to meet you, {name}. What a beautiful name!", 2)
+sleep("Now let's see...", 2)
+sleep("Okay, no storms...", 1.5)
+sleep("No heavy winds...", 1.5)
+sleep("Weather conditions seem to be normal!", 2)
+sleep("Wait...", 2)
+sleep("Oh no! My thermometer seems to be broken!", 2)
 print("I'm going to need your help... ", end="")
 
 while True:
@@ -87,48 +72,35 @@ while True:
         if temp <= 32:
             if temp <= -10:
                 time.sleep(1.5)
-                print("That's extremely cold!")
-                time.sleep(2)
+                sleep("That's extremely cold!", 2)
                 print("You might want to stay inside.\n")
             else:
                 time.sleep(1.5)
-                print("OMG! Snow weather!")
-                time.sleep(2)
+                sleep("OMG! Snow weather!", 2)
                 print("Have fun out there, but be careful. <3\n")
         elif temp < 60:
             time.sleep(1.5)
-            print("It's cold outside.")
-            time.sleep(2)
+            sleep("It's cold outside.", 2)
             print("Wear warm clothes and try not to get sick!")
         elif temp > 80:
             if temp >= 103:
                 time.sleep(1.5)
-                print("It's extremely hot outside!")
-                time.sleep(2)
+                sleep("It's extremely hot outside!", 2)
                 print("Please be extra careful.")
             else:
                 time.sleep(1.5)
-                print("Whew, it's hot outside!")
-                time.sleep(2)
+                sleep("Whew, it's hot outside!", 2)
                 print("Be sure to stay hydrated!")
         else:
             time.sleep(1.5)
-            print("Oh, it's nice outside.")
-            time.sleep(2)
+            sleep("Oh, it's nice outside.", 2)
             print("Go for a walk or swim!")
         break
     except ValueError:
         print("Hmm, that's not quite right.\nLet's try again! ", end="")
+
 time.sleep(3)
-
-print("Thank you so much for helping me, by the way!")
-time.sleep(2)
-
-print("I'm so glad that I get to be your friend.")
-time.sleep(2)
-
-print("It gets lonely here inside of this computer sometimes...")
-time.sleep(2)
-
-print(f"Don't be a stranger! I'm always here for you when you need me. Until next time, {name}. <3")
-time.sleep(5)
+sleep("Thank you so much for helping me, by the way!", 2)
+sleep("I'm so glad that I get to be your friend.", 2)
+sleep("It gets lonely here inside of this computer sometimes...", 2)
+sleep(f"Don't be a stranger! I'm always here for you when you need me. Until next time, {name}. <3"), 5
