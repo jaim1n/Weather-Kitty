@@ -1,3 +1,1 @@
-My first Python project I made from scratch.
-
-Not sure who to credit for the ASCII art, but I got it from emojicombos.com
+My final project in CS50P, and first ever program written from scratch in Python.
