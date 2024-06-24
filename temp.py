@@ -39,23 +39,14 @@ def print_loading_animation(duration_seconds):
         print("                            Bare with me here <3...", end="\r")
         time.sleep(1)
 
-        # Check if the specified duration has elapsed
         if time.time() >= start_time + duration_seconds:
             break
 
-# Specify the duration (in seconds) for the animation
 duration_seconds = 1
-
-# Record the start time
 start_time = time.time()
 
-# Start the loading animation
 print_loading_animation(duration_seconds)
-
-# Print a newline to clear the animation
-print()
-
-print("OK! I'm all set up. Just need one more thing...")
+print("\nOK! I'm all set up. Just need one more thing...")
 time.sleep(1.5)
 
 while True:
@@ -65,10 +56,9 @@ while True:
     else:
         time.sleep(0.5)
         print("I don't think that's right. ", end="")
-
 time.sleep(0.5)
-print("Nice to meet you, " + name, end="")
-print(". What a beautiful name!")
+
+print(f"Nice to meet you, {name}. What a beautiful name!")
 time.sleep(2)
 
 print("Now let's see...")
@@ -130,12 +120,15 @@ while True:
     except ValueError:
         print("Hmm, that's not quite right.\nLet's try again! ", end="")
 time.sleep(3)
+
 print("Thank you so much for helping me, by the way!")
 time.sleep(2)
+
 print("I'm so glad that I get to be your friend.")
 time.sleep(2)
+
 print("It gets lonely here inside of this computer sometimes...")
 time.sleep(2)
-print("Don't be a stranger! I'm always here for you when you need me. Until next time, " + name, end="")
-print(". <3")
+
+print(f"Don't be a stranger! I'm always here for you when you need me. Until next time, {name}. <3")
 time.sleep(5)
