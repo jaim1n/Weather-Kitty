@@ -27,19 +27,20 @@ For the best results, run the program while your terminal is in full screen.
 # TODO:
 where do i even start lol
 
-You have to include `-s` as an argument when running `pytest test_project.py` for some reason, making it `pytest test_project.py -s`.
-Otherwise, it returns a `ModuleNotFoundError`. I tried finding a solution in online forums but nothing seemed to work. Ideally, this should be fixed.
+If you try running `pytest test_project.py`, it returns a `ModuleNotFoundError` for some reason.
+You can add `-s` as an argument, making it `pytest test_project.py -s` and it'll work just fine.
+I drove myself crazy trying to figure out why and eventually gave up.
 
-I wanted to allow inputs to be shown within the speech bubble but couldn't figure out how to do that.
-So I decided to instead move them below the static ASCII art of Weather Kitty, which I couldn't figure out how to do without completely breaking my code.
+I wanted to allow inputs to be shown within the speech bubble, but couldn't figure out how to do that in an aesthetically pleasing way.
+My next idea was to move them below the static ASCII art of Weather Kitty, which I couldn't figure out how to do without completely jumbling up my outputs.
+Ideally, the latter should be implemented if done so correctly.
 
 I also wanted to make her wink quickly at the end before the script ended but am not skilled enough at ASCII art to do that without it looking weird.
+I suppose I could have made two different pictures myself in Photoshop and then converted them to ASCII art but 🤷
 
-## Conclusion
+### Conclusion
 
 This project (obviously) isn't perfect, and I went into it way more ambitiously than I should have. It turned out a lot better than I thought it would, though.
 I think I'll leave it as is, maybe come back to it in a few years when I'm more skilled to see how far I've come.
 
 v2 in 2034 perhaps? :D
-
-### FEEL FREE TO PULL REQUEST 😊
