@@ -23,7 +23,7 @@ The 'loading' function creates the fake loading message at the start of the prog
 
 For the best results, run the program while your terminal is in full screen.
 
-![screenshot](https://github.com/jaim1n/Weather-Kitty/blob/main/Capture.PNG?raw=true)
+![screenshot](https://github.com/jaim1n/Weather-Kitty/blob/main/screenshot.png?raw=true)
 
 # TODO:
 where do i even start lol
