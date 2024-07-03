@@ -27,7 +27,10 @@ For the best results, run the program while your terminal is in full screen.
 # TODO:
 where do i even start lol
 
-You have to include -s as an argument when testing for some reason. Example: `pytest test_project.py -s`
+You have to include -s as an argument when testing for some reason.
+
+Example: `pytest test_project.py -s`
+
 I tried finding a solution in online forums but nothing seemed to work.
 Ideally, this shouldn't happen.
 
