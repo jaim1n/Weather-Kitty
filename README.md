@@ -1,4 +1,4 @@
-My final project in CS50P, and first ever program written from scratch in Python.
+My final project for CS50P, and first ever program written from scratch in Python.
 
 ![certificate](https://github.com/jaim1n/Weather-Kitty/blob/main/CS50P.png?raw=true)
 
