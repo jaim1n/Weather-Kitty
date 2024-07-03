@@ -27,8 +27,8 @@ For the best results, run the program while your terminal is in full screen.
 # TODO:
 where do i even start lol
 
-You have to include -s as an argument when running `pytest test_project.py` for some reason, therefore it becomes `pytest test_project.py -s`.
-Otherwise, it returns a `ModuleNotFoundError`. I tried finding a solution in online forums but nothing seemed to work. Ideally, this should be fixed (feel free to pull request 😊). 
+You have to include `-s` as an argument when running `pytest test_project.py` for some reason, making it `pytest test_project.py -s`.
+Otherwise, it returns a `ModuleNotFoundError`. I tried finding a solution in online forums but nothing seemed to work. Ideally, this should be fixed.
 
 I wanted to allow inputs to be shown within the speech bubble but couldn't figure out how to do that.
 So I decided to instead move them below the static ASCII art of Weather Kitty, which I couldn't figure out how to do without completely breaking my code.
@@ -41,3 +41,5 @@ This project (obviously) isn't perfect, and I went into it way more ambitiously 
 I think I'll leave it as is, maybe come back to it in a few years when I'm more skilled to see how far I've come.
 
 v2 in 2034 perhaps? :D
+
+### FEEL FREE TO PULL REQUEST 😊
