@@ -29,7 +29,7 @@ For the best results, run the program while your terminal is in full screen.
 where do i even start lol
 
 You have to include -s as an argument when testing (pytest test_project.py -s) for some reason.
-I tried finding the answer in online forums and none of the solutions given seemed to work.
+I tried finding a solution in online forums but nothing seemed to work.
 
 I wanted to allow inputs to be shown within the speech bubble but couldn't figure out how to do that.
 So I decided to instead move them below the static ASCII art of Weather Kitty, which I couldn't figure out how to do without completely breaking my code.
