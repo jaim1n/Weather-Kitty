@@ -2,7 +2,7 @@ My final project in CS50P, and first ever program written from scratch in Python
 
 ![alt text](https://github.com/jaim1n/Weather-Kitty/blob/main/CS50P.png?raw=true)
 
-DESCRIPTION:
+# DESCRIPTION:
 Enter your name when prompted so that Weather Kitty knows how to properly address you!
 She's been having a bit of trouble with her thermometer lately, so she might need your help.
 
@@ -23,7 +23,7 @@ The 'loading' function creates the fake loading message at the start of the prog
 
 For the best results, run the program while your terminal is in full screen.
 
-TODO:
+# TODO:
 where do i even start lol
 
 You have to include -s as an argument when testing (pytest test_project.py -s) for some reason.
