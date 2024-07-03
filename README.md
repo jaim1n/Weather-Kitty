@@ -24,7 +24,7 @@ The **loading** function creates the fake loading message at the start of the pr
 
 For the best results, run the program while your terminal is in full screen.
 
-# TODO:
+## TODO:
 where do i even start lol
 
 If you try running `pytest test_project.py`, it returns a `ModuleNotFoundError` for some reason.
@@ -37,8 +37,6 @@ Ideally, the latter should be implemented if done so correctly.
 
 I also wanted to make her wink quickly at the end before the script ended but am not skilled enough at ASCII art to do that without it looking weird.
 I suppose I could have made two different pictures myself in Photoshop and then converted them to ASCII art but 🤷
-
-### Conclusion
 
 This project (obviously) isn't perfect, and I went into it way more ambitiously than I should have. It turned out a lot better than I thought it would, though.
 I think I'll leave it as is, maybe come back to it in a few years when I'm more skilled to see how far I've come.
