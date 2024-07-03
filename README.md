@@ -1,6 +1,6 @@
 My final project in CS50P, and first ever program written from scratch in Python.
 
-![alt text](https://github.com/jaim1n/Weather-Kitty/blob/main/CS50P.png?raw=true)
+![certificate](https://github.com/jaim1n/Weather-Kitty/blob/main/CS50P.png?raw=true)
 
 # DESCRIPTION:
 Enter your name when prompted so that Weather Kitty knows how to properly address you!
@@ -22,6 +22,8 @@ The 'loading' function creates the fake loading message at the start of the prog
 'bubble_text', 'clear_bubble_text', and 'move_cursor_up' work together to create the beautiful speech bubbles around all of Weather Kitty's outputs.
 
 For the best results, run the program while your terminal is in full screen.
+
+![screenshot](https://github.com/jaim1n/Weather-Kitty/blob/main/Capture.PNG?raw=true)
 
 # TODO:
 where do i even start lol
