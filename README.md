@@ -36,7 +36,7 @@ My next idea was to move them below the static ASCII art of Weather Kitty, which
 Ideally, the latter should be implemented if done so correctly.
 
 I also wanted to make her wink quickly before the script ended but am not skilled enough at ASCII art to do that without it looking weird.
-Would've been a neat little easter egg to catch before all text in the terminal window is cleared by `os.system(cls)`.
+Would've been a neat little easter egg to catch before all text in the terminal window is cleared by `os.system(clear)`.
 I suppose I could have made two different pictures myself in Photoshop and then converted them to ASCII art but 🤷
 
 This project (obviously) isn't perfect, and I went into it way more ambitiously than I should have. It turned out a lot better than I thought it would, though.
