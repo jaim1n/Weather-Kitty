@@ -1,6 +1,6 @@
 My final project in CS50P, and first ever program written from scratch in Python.
 
-![alt text](https://certificates.cs50.io/ab992ce1-21b9-4ef9-b350-f453fc66f34d.png?size=letter)
+![alt text]([https://certificates.cs50.io/ab992ce1-21b9-4ef9-b350-f453fc66f34d.png?size=letter](https://github.com/jaim1n/Weather-Kitty/blob/main/CS50P.png?raw=true))
 
 DESCRIPTION:
 
