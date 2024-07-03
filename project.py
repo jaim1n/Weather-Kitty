@@ -1,7 +1,7 @@
-import time
 import os
-import requests
 from colorama import Fore, Style
+import time
+import requests
 
 def main(message, seconds):
     clear_bubble_text()
