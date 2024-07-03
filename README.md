@@ -42,4 +42,4 @@ I suppose I could have made two different pictures myself in Photoshop and then 
 This project (obviously) isn't perfect, and I went into it way more ambitiously than I should have. It turned out a lot better than I thought it would, though.
 I think I'll leave it as is, maybe come back to it in a few years when I'm more skilled to see how far I've come.
 
-v2 in 2034 perhaps? :D
+v2 in 2034 ? :D
