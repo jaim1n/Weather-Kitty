@@ -8,7 +8,7 @@ She's been having a bit of trouble with her thermometer lately, so she might nee
 
 The *os* module makes clearing all text upon the program starting and ending possible.
 
-The *colorama* module is used to make Weather Kitty red, and the hearts (<3) magenta.
+The *colorama* module is used to make Weather Kitty red, and the <3's magenta.
 
 The **main** function is, appropriately, the main function used throughout the project. It consists of two parameters, both of which call for the *time* module.
 The (message) parameter is the text output on the screen by Weather Kitty. The (seconds) parameter is the amount of seconds that it takes for the next line of code to be run.
