@@ -20,7 +20,7 @@ This uses the `requests` module.
 
 `bubble_text`, `clear_bubble_text`, and `move_cursor_up` work together to create the beautiful speech bubbles around all of Weather Kitty's outputs.
 
-![screenshot](https://github.com/jaim1n/Weather-Kitty/blob/main/screenshot.png?raw=true)
+![screenshot](https://github.com/jaim1n/Weather-Kitty/blob/main/assets/screenshot.png?raw=true)
 
 For the best results, run the program while your terminal is in full screen.
 
