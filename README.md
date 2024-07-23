@@ -34,9 +34,8 @@ I wanted to allow inputs to be shown within the speech bubble, but couldn't figu
 My next idea was to move them below the static ASCII art of Weather Kitty, which I couldn't figure out how to do without completely jumbling up my outputs.
 Ideally, the latter should be implemented if done so correctly.
 
-I also wanted to make her wink quickly before the script ended but am not skilled enough at ASCII art to do that without it looking weird.
-Would've been a neat little easter egg to catch before all text in the terminal window is cleared by `os.system(clear)`.
-I suppose I could have made two different pictures myself in Photoshop, and then converted them to ASCII art, but I had that idea a bit too late.
+Sometime in the future, I'll make her wink quickly before the script ends. I tried doing it before, but couldn't make it look natural.
+It would been a cute little easter egg to catch before all text in the terminal window is cleared by `os.system(clear)`.
 
 ### GPT-3.5 Implementation
 OpenAI API go brrr
