@@ -25,11 +25,8 @@ This uses the `requests` module.
 For the best results, run the program while your terminal is in full screen.
 
 ## TODO:
-where do i even start lol
-
 ### Unit Test
 If you try running `pytest test_project.py`, it returns an error. You have to add `-s` as an argument, making it `pytest test_project.py -s` for it to work.
-I drove myself crazy trying to fix it and eventually gave up.
 
 ### Aesthetics
 I wanted to allow inputs to be shown within the speech bubble, but couldn't figure out how to do that in an aesthetically pleasing way.
@@ -39,3 +36,6 @@ Ideally, the latter should be implemented if done so correctly.
 I also wanted to make her wink quickly before the script ended but am not skilled enough at ASCII art to do that without it looking weird.
 Would've been a neat little easter egg to catch before all text in the terminal window is cleared by `os.system(clear)`.
 I suppose I could have made two different pictures myself in Photoshop, and then converted them to ASCII art, but I had that idea a bit too late.
+
+### GPT-3.5 Implementation
+OpenAI API go brrr
