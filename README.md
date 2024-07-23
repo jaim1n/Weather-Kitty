@@ -25,8 +25,8 @@ This uses the `requests` module.
 For the best results, run the program while your terminal is in full screen.
 
 ## TODO:
-### Unit Test
-If you try running `pytest test_project.py`, it returns an error. You have to add `-s` as an argument, making it `pytest test_project.py -s` for it to work.
+### `pytest` Error
+If you try running `pytest test_project.py`, it returns an error. You have to add `-s` as an argument, making it `pytest test_project.py -s`, in order for it to work.
 
 ### Aesthetics
 I wanted to allow inputs to be shown within the speech bubble, but couldn't figure out how to do that in an aesthetically pleasing way.
