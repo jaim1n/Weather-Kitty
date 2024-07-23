@@ -26,7 +26,8 @@ For the best results, run the program while your terminal is in full screen.
 
 ## TODO:
 ### `pytest` Error
-If you try running `pytest test_project.py`, it returns an error. You have to add `-s` as an argument, making it `pytest test_project.py -s`, in order for it to work.
+You have to add `-s` as an argument to `pytest test_project.py`, making it `pytest test_project.py -s`. Otherwise, it will return an error.
+The cause of this error is already known, I just don't have the patience to fix it at the moment.
 
 ### Aesthetics
 I wanted to allow inputs to be shown within the speech bubble, but couldn't figure out how to do that in an aesthetically pleasing way.
