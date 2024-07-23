@@ -39,3 +39,6 @@ I suppose I could have made two different pictures myself in Photoshop, and then
 
 ### GPT-3.5 Implementation
 OpenAI API go brrr
+
+### Web Application
+PyScript is brand new to me, as is Python in general, so it's going to take a lot of time and patience for me to work out all of the kinks and get a usable demo up and running.
