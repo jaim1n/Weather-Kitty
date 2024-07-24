@@ -50,3 +50,5 @@ Will come back to this after I finish CS50ai.
 
 - ### Web Application
 [PyScript](https://pyscript.com/) is brand new to me, as is Python in general, so it's going to take a lot of time and patience for me to work out all of the kinks and get a usable demo up and running.
+
+So far, [this](https://jaim1n.github.io/hearts.html) is all I've done with PyScript. It doesn't seem to handle user inputs as simple as my Codespaces terminal does, so this might take a bit longer than I anticipated.
