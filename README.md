@@ -1,6 +1,6 @@
 ![certificate](https://github.com/jaim1n/Weather-Kitty/blob/main/assets/CS50P.png?raw=true)
 
-# DESCRIPTION:
+# Weather Kitty
 Enter your name when prompted so that Weather Kitty knows how to properly address you!
 She's been having a bit of trouble with her thermometer lately, so she might need your help.
 
@@ -31,11 +31,11 @@ From [Sanrio's website](https://www.sanrio.com/pages/sanrio-intellectual-propert
 While this specific use isn't mentioned, I'd rather play it safe.
 
 ## TODO:
-### `pytest` Error
+### - `pytest` Error
 You have to add `-s` as an argument to `pytest test_project.py`, making it `pytest test_project.py -s`. Otherwise, it will return an error.
 The cause of this error is already known, I just don't have the patience to fix it at the moment.
 
-### Aesthetics
+### - Aesthetics
 I wanted to allow inputs to be shown within the speech bubble, but couldn't figure out how to do that in an aesthetically pleasing way.
 My next idea was to move them below the static ASCII art of Weather Kitty, which I couldn't figure out how to do without completely jumbling up my outputs.
 Ideally, the latter should be implemented if done so correctly.
@@ -43,10 +43,10 @@ Ideally, the latter should be implemented if done so correctly.
 Sometime in the future, I'll make her wink quickly before the script ends. I tried doing it before, but couldn't make it look natural.
 It would been a cute little easter egg to catch before all text in the terminal window is cleared by `os.system(clear)`.
 
-### GPT-3.5 Implementation
+### - GPT-3.5 Implementation
 [OpenAI API](https://platform.openai.com/docs/overview) go brrr.
 
 Will come back to this after I finish CS50ai.
 
-### Web Application
+### - Web Application
 [PyScript](https://pyscript.com/) is brand new to me, as is Python in general, so it's going to take a lot of time and patience for me to work out all of the kinks and get a usable demo up and running.
