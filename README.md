@@ -24,6 +24,9 @@ This uses the `requests` module.
 
 For the best results, run the program while your terminal is in full screen.
 
+Not going to license this since it uses copyrighted material. From [Sanrio's website](https://www.sanrio.com/pages/sanrio-intellectual-property-info):
+> "—creating and redistributing digital content with Sanrio characters are also illegal.  These include SVG artwork files like those intended for crafting purposes, creating clothing or other accessories to be used by digital game avatars or creating digital  icons or stamps for messaging purpose."
+
 ## TODO:
 ### `pytest` Error
 You have to add `-s` as an argument to `pytest test_project.py`, making it `pytest test_project.py -s`. Otherwise, it will return an error.
