@@ -44,7 +44,9 @@ Sometime in the future, I'll make her wink quickly before the script ends. I tri
 It would been a cute little easter egg to catch before all text in the terminal window is cleared by `os.system(clear)`.
 
 ### GPT-3.5 Implementation
-OpenAI API go brrr
+[OpenAI API](https://platform.openai.com/docs/overview) go brrr.
+
+Will come back to this after I finish CS50ai.
 
 ### Web Application
 [PyScript](https://pyscript.com/) is brand new to me, as is Python in general, so it's going to take a lot of time and patience for me to work out all of the kinks and get a usable demo up and running.
