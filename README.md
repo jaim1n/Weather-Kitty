@@ -46,7 +46,7 @@ It would been a cute little easter egg to catch before all text in the terminal 
 - ### GPT-3.5 Implementation
 [OpenAI API](https://platform.openai.com/docs/overview) go brrr.
 
-Will come back to this after I finish CS50ai.
+Will come back to this after I finish CS50 AI.
 
 - ### Web Application
 [Weather Kitty Lite](https://jaim1n.github.io/wk-lite) can handle a single input and return it in bubble text.
