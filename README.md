@@ -32,24 +32,24 @@ While this specific use isn't mentioned, I'd rather play it safe.
 
 ## TODO
 - ### `pytest` Error
-You have to add `-s` as an argument to `pytest test_project.py`, making it `pytest test_project.py -s`. Otherwise, it will return an error.
-The cause of this error is already known, I just don't have the patience to fix it at the moment.
+  You have to add `-s` as an argument to `pytest test_project.py`, making it `pytest test_project.py -s`. Otherwise, it will return an error.
+  The cause of this error is already known, I just don't have the patience to fix it at the moment.
 
 - ### Aesthetics
-I wanted to allow inputs to be shown within the speech bubble, but couldn't figure out how to do that in an aesthetically pleasing way.
-My next idea was to move them below the static ASCII art of Weather Kitty, which I couldn't figure out how to do without completely jumbling up my outputs.
-Ideally, the latter should be implemented if done so correctly.
+  I wanted to allow inputs to be shown within the speech bubble, but couldn't figure out how to do that in an aesthetically pleasing way.
+  My next idea was to move them below the static ASCII art of Weather Kitty, which I couldn't figure out how to do without completely jumbling up my outputs.
+  Ideally, the latter should be implemented if done so correctly.
 
-Sometime in the future, I'll make her wink quickly before the script ends. I tried doing it before, but couldn't make it look natural.
-It would been a cute little easter egg to catch before all text in the terminal window is cleared by `os.system(clear)`.
+  Sometime in the future, I'll make her wink quickly before the script ends. I tried doing it before, but couldn't make it look natural.
+  It would been a cute little easter egg to catch before all text in the terminal window is cleared by `os.system(clear)`.
 
-- ### GPT-3.5 Implementation
-[OpenAI API](https://platform.openai.com/docs/overview) go brrr.
+- ### GPT-3.5 Integration
+  [OpenAI API](https://platform.openai.com/docs/overview) go brrr.
 
-Will come back to this after I finish CS50 AI.
+  Will come back to this after I finish CS50 AI.
 
 - ### Web Application
-[Weather Kitty Lite](https://jaim1n.github.io/wk-lite) can handle a single input and return it in bubble text.
-This was made using [PyScript](https://pyscript.com/).
+  [Weather Kitty Lite](https://jaim1n.github.io/wk-lite) can handle a single input and return it in bubble text.
+  This was made using [PyScript](https://pyscript.com/).
 
-PyScript is brand new to me, as is Python in general, and it doesn't seem to handle user inputs as simply as my Codespaces terminal does. This might take a while.
+  PyScript is brand new to me, as is Python in general, and it doesn't seem to handle user inputs as simply as my Codespaces terminal does. This might take a while.
