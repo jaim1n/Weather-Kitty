@@ -1,4 +1,4 @@
-![certificate](https://github.com/jaim1n/Weather-Kitty/blob/main/assets/CS50P.png?raw=true)
+![certificate](https://github.com/jaim1n/jaim1n.github.io/blob/main/assets/certificates/CS50P.png?raw=true)
 
 # Weather Kitty
 Enter your name when prompted so that Weather Kitty knows how to properly address you!
