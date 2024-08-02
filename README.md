@@ -18,7 +18,7 @@ This uses the `requests` module.
 
 `bubble_text`, `clear_bubble_text`, and `move_cursor_up` work together to create the beautiful speech bubbles around all of Weather Kitty's outputs.
 
-![screenshot](https://github.com/jaim1n/Weather-Kitty/blob/main/assets/screenshot.png?raw=true)
+![screenshot](assets/screenshot.png)
 
 For the best results, run the program while your terminal is in full screen.
 
@@ -30,8 +30,11 @@ While this specific use isn't mentioned, I'd rather play it safe.
 
 ## TODO
 - ### `pytest` Error
-  You have to add `-s` as an argument to `pytest test_project.py`, making it `pytest test_project.py -s`. Otherwise, it will return an error.
-  The cause of this error is already known, I just don't have the patience to fix it at the moment.
+  Running `pytest test_project.py` will return:
+  ```
+  ERROR test_project.py - OSError: pytest: reading from stdin while output is captured!  Consider using `-s`.
+  ```
+  The cause of this error is already known, I just don't have the patience to fix it at the moment. Use `pytest test_project.py -s` in the meantime.
 
 - ### Aesthetics
   - Design a new look for Weather Kitty.
