@@ -52,7 +52,7 @@ While this specific use isn't mentioned, I'd rather play it safe.
   Will come back to this after I finish CS50 AI.
 
 - ### Web Application
-  [Weather Kitty Lite](https://jaimin.xyz/apps/wk-lite) can handle a single input and return it in bubble text.
+  [Bubble Kitty](https://jaimin.xyz/Weather-Kitty) can handle a single input and return it in bubble text.
   This was made using [PyScript](https://pyscript.com/).
 
   PyScript is brand new to me, as is Python in general, and it doesn't seem to handle user inputs as simply as my Codespaces terminal does. This might take a while.
